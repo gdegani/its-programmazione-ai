@@ -1,5 +1,5 @@
 {
-  "name": "its_slides_ai",
+  "name": "its-programmazione-ai",
   "type": "module",
   "private": true,
   "scripts": {
@@ -22,15 +22,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gdegani/its_slides_ai.git"
+    "url": "git+https://github.com/gdegani/its-programmazione-ai.git"
   },
   "keywords": [],
   "author": "Giancarlo Degani",
   "license": "CC BY-SA 4.0",
   "bugs": {
-    "url": "https://github.com/gdegani/its_slides_ai/issues"
+    "url": "https://github.com/gdegani/its-programmazione-ai/issues"
   },
-  "homepage": "https://github.com/gdegani/its_slides_ai#readme",
+  "homepage": "https://github.com/gdegani/its-programmazione-ai#readme",
   "devDependencies": {
     "playwright-chromium": "^1.58.2"
   },
