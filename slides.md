@@ -1,6 +1,6 @@
 ---
 theme: academic
-coverDate: "2026"
+coverDate: "2026-2027"
 title: Programmazione assistita dall'Intelligenza Artificiale
 
 class: text-center
