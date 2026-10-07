@@ -12,8 +12,8 @@ Repository contenente le slide per il corso [**"Programmazione Assistita dall'In
 Per avviare le slide localmente:
 
 ```bash
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 Quindi visita <http://localhost:3030> nel tuo browser.
