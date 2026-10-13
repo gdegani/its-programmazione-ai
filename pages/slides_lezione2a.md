@@ -1,3 +1,15 @@
+---
+layout: cover
+
+---
+
+# Lezione 2 parte a - Pratica con Copilot e Laboratorio (4 ore)
+
+---
+level: 2
+
+---
+
 # Riepilogo Lezione 1
 
 - Fondamenti di AI, ML, Deep Learning
@@ -5,6 +17,9 @@
 - Token, embedding e context window
 - Differenza tra Chat AI e AI Agent
 - Basi per strutturare prompt efficaci
+
+---
+level: 2
 
 ---
 
@@ -19,6 +34,7 @@ Ripensate alla Lezione 1 e rispondete a voce:
 
 ---
 hide: true
+level: 2
 
 ---
 
@@ -43,6 +59,7 @@ hide: true
 
 ---
 layout: section
+level: 2
 
 ---
 
@@ -53,6 +70,7 @@ layout: figure
 figureUrl: /lmstudio3.png
 FigureCaption: "LM Studio: modelli scaricati e pronti all'uso"
 title: "LM Studio: Modelli locali"
+level: 2
 
 ---
 
@@ -61,6 +79,7 @@ layout: figure
 figureUrl: /lmstudio2.png
 figureCaption: "LM Studio: impostazione del del server locale e caricamento modelli"
 title: "LM Studio: Server locale e modelli"
+level: 2
 
 ---
 
@@ -69,6 +88,7 @@ layout: figure
 figureUrl: /lmstudio4.png
 figureCaption: "LM Studio: chat con modello locale, risposta rapida e coerente"
 title: "LM Studio: Chat con modello locale"
+level: 2
 
 ---
 
@@ -77,8 +97,12 @@ layout: figure
 figureUrl: /lmstudio6.png
 figureCaption: "LM Studio: dimensione del contesto"
 title: "LM Studio: Carica modelli"
+level: 2
 
 ---
+
+---
+level: 2
 
 ---
 
@@ -108,6 +132,9 @@ graph TD
 ```
 
 ---
+level: 2
+
+---
 
 # Template - CRISPE Prompt
 
@@ -119,6 +146,7 @@ graph TD
 
 ---
 zoom: 1.4
+level: 2
 
 ---
 
@@ -133,6 +161,9 @@ E: Produci 2 versioni: una super breve e una con analogia quotidiana.
 ```
 
 ---
+level: 2
+
+---
 
 # Prompt efficaci = CO-STAR
 
@@ -145,6 +176,7 @@ E: Produci 2 versioni: una super breve e una con analogia quotidiana.
 
 ---
 zoom: 1.4
+level: 2
 
 ---
 
@@ -162,6 +194,7 @@ Risposta: 3 paragrafi numerati con esempi quotidiani
 
 ---
 zoom: 1.4
+level: 2
 
 ---
 
@@ -176,6 +209,9 @@ Tono: Commenti chiari in inglese
 Pubblico: Studenti principianti C
 Risposta: Codice + test con assert + breve spiegazione
 ```
+
+---
+level: 2
 
 ---
 
@@ -200,6 +236,7 @@ Prova questi esercizi su un chatbot (locale o online):
 
 ---
 layout: two-cols
+level: 2
 
 ---
 
@@ -221,6 +258,9 @@ flowchart TD
 ```
 
 ---
+level: 2
+
+---
 
 # System Prompt: a cosa serve
 
@@ -235,6 +275,9 @@ flowchart TD
 ## Perché è importante
 
 Senza system prompt, il modello risponde in modo generico. Con un system prompt ben scritto, le risposte diventano **coerenti**, **mirate** e **riutilizzabili**.
+
+---
+level: 2
 
 ---
 
@@ -255,6 +298,9 @@ Spiega il codice riga per riga.
 </Transform>
 
 ---
+level: 2
+
+---
 
 # Esempi di System Prompt: Code reviewer
 
@@ -273,6 +319,9 @@ concreti di correzione.
 </Transform>
 
 ---
+level: 2
+
+---
 
 # Esempi di System Prompt: Assistente minimal
 
@@ -287,6 +336,9 @@ il C, rispondi "Fuori tema".
 ```
 
 </Transform>
+
+---
+level: 2
 
 ---
 
@@ -313,8 +365,12 @@ figureUrl: /system-prompt.jpg
 figureCaption: "LM Studio: impostazione del System Prompt"
 title: "LM Studio: System Prompt"
 zoom: 0.5
+level: 2
 
 ---
+
+---
+level: 2
 
 ---
 
@@ -339,10 +395,14 @@ La maggior parte dei chatbot permette di impostare un system prompt nelle impost
 
 ---
 layout: section
+level: 2
 
 ---
 
 # Parte 2 — Setup di CLion con AI locale
+
+---
+level: 2
 
 ---
 
@@ -353,6 +413,9 @@ layout: section
 - Ambiente pronto con compilatore C (gcc/clang) e CLion installato
 
 ---
+level: 2
+
+---
 
 # Perché usare AI nello sviluppo C
 
@@ -360,6 +423,9 @@ layout: section
 - Ottenere spiegazioni rapide di warning e bug prima del debug manuale
 - Esplorare alternative di design senza riscrivere tutto a mano
 - Mantenere coerenza di stile e naming in team
+
+---
+level: 2
 
 ---
 
@@ -373,6 +439,9 @@ You can use Copilot to:
 - Organize and share context with Copilot Spaces to get more relevant answers.
 - Generate descriptions of changes in a pull request.
 - Work on code changes and create a pull request for you to review. Available in Copilot Pro+, Copilot Business, and Copilot Enterprise only.
+
+---
+level: 2
 
 ---
 
@@ -392,6 +461,7 @@ layout: figure-side
 figureUrl: /models.png
 figureCaption: "Esempio di modelli disponibili in LM Studio"
 hide: true
+level: 2
 
 ---
 
@@ -411,6 +481,7 @@ curl http://localhost:1234/v1/models
 
 ---
 layout: two-cols
+level: 2
 
 ---
 
@@ -458,6 +529,7 @@ curl http://localhost:1234/v1/models
 
 ---
 hide: true
+level: 2
 
 ---
 
@@ -481,6 +553,9 @@ Per usare **GitHub Copilot** serve un account GitHub attivo.
 - Dopo l'approvazione, Copilot è incluso gratuitamente
 
 ---
+level: 2
+
+---
 
 # I tuoi strumenti: continue.dev e GitHub Copilot
 
@@ -502,6 +577,7 @@ Per usare **GitHub Copilot** serve un account GitHub attivo.
 layout: figure-side
 figureUrl: /clion-plugins2.png
 figureCaption: "CLion Plugins Marketplace: continue.dev e GitHub Copilot"
+level: 2
 
 ---
 
@@ -519,6 +595,7 @@ figureCaption: "CLion Plugins Marketplace: continue.dev e GitHub Copilot"
 layout: figure-side
 figureUrl: /clion-copilot-login.png
 figureCaption: "CLion: Copilot login e autorizzazione"
+level: 2
 
 ---
 
@@ -532,6 +609,7 @@ figureCaption: "CLion: Copilot login e autorizzazione"
 layout: figure-side
 figureUrl: /clion-continue2.png
 figureCaption: "CLion: Configurazione di continue.dev per connettersi a LM Studio"
+level: 2
 
 ---
 
@@ -556,10 +634,14 @@ models:
 
 ---
 layout: section
+level: 2
 
 ---
 
 # Parte 3 — Vibe coding...
+
+---
+level: 2
 
 ---
 
@@ -574,10 +656,14 @@ layout: section
 layout: figure
 figureUrl: /clion-chat-ui.png
 figureCaption: "CLion: UI di chat con Copilot e continue.dev"
+level: 2
 
 ---
 
 # CLion: Demo UI di Copilot e continue.dev
+
+---
+level: 2
 
 ---
 
@@ -595,6 +681,9 @@ Crea un progetto C vuoto in CLion e prova a generare una funzione che legge un i
 1. Accetta le modifiche o rigenera
 
 ---
+level: 2
+
+---
 
 # Esercizi
 
@@ -604,6 +693,9 @@ Chiedi all'agent (continue.dev o Copilot Chat) di generare:
 - Una funzione che trova il minimo e massimo in un array di interi
 - Una funzione che ordina un array di interi usando bubble sort
 - Una funzione che legge N interi da input e li memorizza in un array
+
+---
+level: 2
 
 ---
 
@@ -617,12 +709,18 @@ Restituisci solo la funzione corretta.
 ```
 
 ---
+level: 2
+
+---
 
 # Domande utili da fare all'AI
 
 - "Che cosa succede se la variabile `den` è zero?"
 - "Ci sono indici fuori limite?"
 - "Serve cast esplicito qui?"
+
+---
+level: 2
 
 ---
 
@@ -643,6 +741,9 @@ int sum_positive(const int *arr, int count) {
 Suggerimento: usa la sequanza ``` come delimitatore prima e dopo un blocco di codice per inserire un blocco di codice inline nella chat.
 
 ---
+level: 2
+
+---
 
 # Configurare GitHub Copilot nel repository
 
@@ -656,6 +757,9 @@ Per guidare Copilot in modo coerente nel progetto usa il file:
 - Vincoli didattici del corso
 - Regole su stile, commenti e test
 - Cosa evitare (scope, librerie non permesse)
+
+---
+level: 2
 
 ---
 
@@ -674,6 +778,9 @@ Per guidare Copilot in modo coerente nel progetto usa il file:
 Suggerimento: tieni il file corto, specifico e aggiornato
 
 ---
+level: 2
+
+---
 
 # Standard cross-agent: AGENTS.md
 
@@ -687,6 +794,9 @@ Riferimenti:
 
 - <https://agentsmd.io/what-is-agents-md>
 - <https://arxiv.org/html/2602.14690v2>
+
+---
+level: 2
 
 ---
 
@@ -706,6 +816,9 @@ Pattern consigliato:
 - File tool-specifici come adapter
 
 ---
+level: 2
+
+---
 
 # AGENTS.md: contenuti essenziali
 
@@ -714,6 +827,9 @@ Pattern consigliato:
 - Testing: comandi, framework, aspettative
 - Regole locali: cosa fare e non fare
 - Struttura del repo: dove trovare i file chiave
+
+---
+level: 2
 
 ---
 
@@ -733,6 +849,9 @@ In pratica:
 - System prompt = adattamento rapido per il task corrente
 
 ---
+level: 2
+
+---
 
 # Cosa sono gli Skills per AI Agent
 
@@ -742,6 +861,9 @@ Uno skill e' un pacchetto di istruzioni riusabile che insegna a un agente come e
 - Definisce passi operativi consigliati
 - Riduce risposte incoerenti tra task simili
 - Rende il comportamento piu' prevedibile in team
+
+---
+level: 2
 
 ---
 
@@ -761,6 +883,9 @@ Uno skill e' un pacchetto di istruzioni riusabile che insegna a un agente come e
 
 - Input: file unico
 - Output: separazione interfaccia/implementazione senza cambiare API
+
+---
+level: 2
 
 ---
 
@@ -783,6 +908,9 @@ Passi pratici:
 2. Aggiungi `SKILL.md` con nome, descrizione, quando usarlo e workflow
 3. Tieni gli esempi piccoli e verificabili nel contesto del progetto
 4. Versiona tutto con Git per review e miglioramenti incrementali
+
+---
+level: 2
 
 ---
 

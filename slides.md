@@ -19,11 +19,22 @@ lineNumbers: true
 fonts:
   sans: 'Noto Sans Variable'
   provider: none # Tell Slidev not to use Google Fonts CDN
+hideInToc: true
 ---
 
 # Programmazione assistita dall'Intelligenza Artificiale
 
 Ing. Giancarlo Degani
+
+---
+layout: table-of-contents
+hideInToc: true
+
+---
+
+# Indice
+
+<Toc maxDepth="1" />
 
 ---
 src: ./pages/slides_lezione1.md
