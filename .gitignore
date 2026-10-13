@@ -60,3 +60,6 @@ cmake-build-*/
 
 /pages/slides_lezione3_copy.md
 /*.pdf
+
+## Release artifacts (scripts/release.sh)
+/release/

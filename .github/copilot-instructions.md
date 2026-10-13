@@ -1,27 +1,55 @@
-# Project Overview
-Slides for the course "Programmazione assistita dall'Intelligenza Artificiale" (Ing. Giancarlo Degani), built with Slidev (Markdown + Vue). The goal is to give students a clear, progressive understanding of how AI can assist programming tasks, increase productivity, and improve code quality.
+# Project overview
 
-# contraints
-* the training course is in Italian, so slides should be in Italian.
-* code examples must be in C, as the course focuses on C programming.
-* the course is introductory, so examples should not assume knowledge beyond what has been covered.
-* students can use CLion to do exercises, so code examples should be compatible with that IDE.
+Slides for the course "Programmazione assistita dall'Intelligenza Artificiale" (16 hours, 4 lessons of 4 hours), taught by Ing. Giancarlo
+Degani at ITS Meccatronico Veneto. The slides are built with Slidev. The course follows "Elementi di programmazione e gestione dati"
+(repository `its-programmazione`): students apply AI tools to C code they can already read, and the project of the C course is the case
+study.
 
-# Slide Creation Guidelines
-* Language: slide text in Italian.
-* Code: C only, with English identifiers and comments for clarity.
-  * Use simple, self-contained examples that can be easily understood and run by students.
-  * Examples must not contain any Italian words in the code itself, to maintain consistency and avoid confusion.
-* Scope: keep examples within topics already covered in the course; avoid prerequisites not yet introduced.
-* Structure: prefer headers over bold/italic for emphasis; keep slides concise (few bullets, short lines).
-* Formatting: avoid embedded HTML; use pure Markdown and Slidev/Vue components when needed.
-* Pedagogy: each example should illustrate a single concept; add brief context if the code is not self-explanatory.
-* Use images and diagrams where they can enhance understanding, but ensure they are relevant and not overly complex. Mind maps are welcome. 
-* Use mermaid for diagrams. 
-* Make sure every slide is fully visible and legible, avoiding overlapping or small elements. Use a two-column layout if necessary to improve readability, especially when there are many bullet points or code.
-* For code snippets, ensure they are properly formatted and syntax-highlighted for C, and that they are not too long to fit on a single slide without scrolling. Consider breaking longer code examples into multiple slides if necessary, to maintain readability and focus on key concepts.
-* Use Markdownlint or similar tools to check for formatting issues, and ensure that all slides adhere to the specified guidelines for language, code style, and structure.
-* Alway run markdonlint and a full build of the slides to check for any issues before finalizing the content. This will help catch any formatting errors, broken links, or other issues that could affect the presentation quality.
-* use the documents in the /reference folder as a source of inspiration for content examples, but do not copy them verbatim. Instead, adapt them to fit the specific topics being covered in the course, and ensure that they are simplified and focused on illustrating the key concepts without introducing unnecessary complexity.
-* do not suggest using Miro or other external tools for interactive activities, as the course is focused on programming and code examples. Instead, use Slidev's built-in features for interactivity, such as quizzes or polls, to engage students and reinforce learning.
+The goal is a clear, progressive understanding of how AI can assist programming, increase productivity and improve code quality, without replacing understanding.
 
+# Repository layout
+
+* `slides.md`: entry point (configuration and lesson list)
+* `pages/`: one file per lesson
+* `snippets/`: examples
+* `reference/`: reference material (not versioned): use it as inspiration, never copy it verbatim; adapt and simplify it
+* `components/`: Vue components
+* `scripts/release.sh`: archive an edition
+
+# Course-specific rules
+
+* Tools used in class: LM Studio (local LLM), GitHub Copilot and continue.dev in CLion.
+* The course is introductory: do not assume knowledge beyond what the C course covered.
+* Always stress validating AI output: compile, test and check the logic of generated code.
+* Use mind maps and diagrams where they help, as long as they stay simple.
+
+# Common conventions
+
+This section is identical in `its-programmazione` and `its-programmazione-ai`: keep the two copies aligned.
+
+## Language
+
+* Slide text is in Italian.
+* Code is C. Identifiers, comments and output strings in the examples are in English, with no Italian words in the code.
+
+## Slides
+
+* Slides are Slidev (Markdown + Vue). Prefer headers over bold or italics for emphasis.
+* Avoid embedded HTML: use pure Markdown and Slidev/Vue components.
+* Keep slides concise: few bullets, short lines. Every slide must be fully visible, with nothing overflowing or overlapping. Split long code over several slides, or use a two-column layout (in two columns keep code lines under about 55 characters).
+* Use Mermaid for diagrams.
+* Do not suggest external interactive tools (Miro and similar): use what Slidev provides.
+
+## Examples
+
+* Examples live in `snippets/*/`, one folder per example, each a standalone CMake project that compiles on its own. Slides include them with `<<< @/snippets/...`, using `// #region name` to show only a part. Inline code in slides is limited to tiny fragments.
+* One example illustrates one concept, and uses only topics already covered in the course.
+
+## Course setup
+
+* All the exercises are done in class, in pairs (pair programming), on the classroom laptops with CLion. There is no homework.
+* npm is the only package manager.
+
+## Before finishing a change
+
+* Run markdownlint (configuration in `.markdownlint.json`, identical in both repositories) and a full `npm run build`.

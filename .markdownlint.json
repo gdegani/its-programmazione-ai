@@ -1,9 +1,12 @@
 {
-    "MD013": {"line_length": 300},
-    "MD024": false,
-    "MD025": false,
-    "MD026": false,
-    "MD029": false,
-    "MD033": false,
-    "MD036": false
-  }
+  "MD013": { "line_length": 300 },
+  "MD024": false,
+  "MD025": false,
+  "MD026": false,
+  "MD029": false,
+  "MD033": {
+    "allowed_elements": ["nobr", "sup", "Toc", "v-drag-arrow", "Transform", "sub", "br", "div"]
+  },
+  "MD036": false,
+  "MD060": false
+}
