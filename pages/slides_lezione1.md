@@ -1,6 +1,15 @@
 ---
+layout: cover
+
+---
+
+# Lezione 1 - Fondamenti di AI e LLM (4 ore)
+
+---
 layout: two-cols
 transition: slide-left
+level: 2
+
 ---
 
 # Rispondi al sondaggio
@@ -17,7 +26,12 @@ vai su slido.com e inserisci il codice:
 
 ![QR Code](/qr-code-its-1.png)
 
-<!-- https://wall.sli.do/event/4JqN2FQ25AgprK61sixSzx?section=935314ea-1825-4ca1-bd24-50111172a8c6&integration=shared-present-mode&utm_source=slidoadmin -->
+<!--
+https://wall.sli.do/event/4JqN2FQ25AgprK61sixSzx?section=935314ea-1825-4ca1-bd24-50111172a8c6&integration=shared-present-mode&utm_source=slidoadmin
+-->
+
+---
+level: 2
 
 ---
 
@@ -31,6 +45,9 @@ Quale è il significato di questi termini?
 | Contesto | ? |
 | Prompt | ? |
 | Agent | ? |
+
+---
+level: 2
 
 ---
 
@@ -48,8 +65,12 @@ layout: figure
 figureUrl: /AI_venn.png
 figureCaption: "Source: Wikipedia - AI, ML, DL, LLM relationship"
 title: AI, ML, DL, LLM relationship
+level: 2
 
 ---
+
+---
+level: 2
 
 ---
 
@@ -70,6 +91,7 @@ GPT-4, Claude, Gemini, Llama, DeepSeek
 
 ---
 layout: two-cols
+level: 2
 
 ---
 
@@ -98,6 +120,9 @@ Sono modelli statistici che predicono la sequenza di parole più probabile.
 - Ripete il processo per generare testo completo
 
 ---
+level: 2
+
+---
 
 # Implicazioni della natura probabilistica
 
@@ -117,6 +142,9 @@ Sono modelli statistici che predicono la sequenza di parole più probabile.
 ## Regola d'oro
 
 **Valida sempre l'output** - compila, testa, verifica la logica del codice generato
+
+---
+level: 2
 
 ---
 
@@ -142,6 +170,9 @@ Gli LLM permettono di controllare la casualità dell'output tramite il parametro
 - **Uso**: brainstorming, scrittura creativa
 
 ---
+level: 2
+
+---
 
 # Temperature: effetto sulla distribuzione
 
@@ -157,6 +188,9 @@ Prompt: `"Il sole sorge a..."` — come cambia la distribuzione dei token al var
 
 - **Bassa**: distribuzione concentrata, scelta quasi deterministica
 - **Alta**: distribuzione più uniforme, maggiore variabilità
+
+---
+level: 2
 
 ---
 
@@ -178,6 +212,7 @@ flowchart LR
 
 ---
 layout: two-cols
+level: 2
 
 ---
 
@@ -208,6 +243,9 @@ layout: two-cols
 | ; | 1 |
 
 ---
+level: 2
+
+---
 
 # Token: esempi pratici
 
@@ -222,6 +260,9 @@ layout: two-cols
 - I modelli hanno un **limite massimo di token** (context window)
 - Ogni token ha un **costo** nei servizi cloud
 - Prompt più lunghi = meno spazio per la risposta
+
+---
+level: 2
 
 ---
 
@@ -243,6 +284,7 @@ flowchart LR
 
 ---
 layout: two-cols
+level: 2
 
 ---
 
@@ -283,6 +325,9 @@ quadrantChart
 Parole con significato simile sono **vicine** nello spazio.
 
 ---
+level: 2
+
+---
 
 # Embedding: perché sono importanti
 
@@ -310,6 +355,9 @@ flowchart LR
 Ogni volta che un LLM genera una parola, attraversa tutta questa pipeline.
 
 ---
+level: 2
+
+---
 
 # Context window: concetti base
 
@@ -322,6 +370,9 @@ Quantità massima di testo che un LLM può "vedere" contemporaneamente (input + 
 Si misura in token
 
 Esempio: `"printf(\"Hello\");"` = circa 5-6 token
+
+---
+level: 2
 
 ---
 
@@ -340,6 +391,7 @@ layout: figure-side
 figureUrl: /context-window-llm.svg
 figureCaption: "Schema semplificato del context window di un LLM"
 zoom: 0.9
+level: 2
 
 ---
 
@@ -358,6 +410,9 @@ La **context window** e la memoria a breve termine del modello:
 - Utile riassumere periodicamente il contesto
 
 ---
+level: 2
+
+---
 
 # Cos'è una Chat AI
 
@@ -373,6 +428,9 @@ Una **Chat AI** (o chatbot AI) è un'interfaccia conversazionale che permette di
 ## Esempi
 
 ChatGPT, Claude, Gemini, Perplexity, GitHub Copilot Chat
+
+---
+level: 2
 
 ---
 
@@ -396,6 +454,9 @@ flowchart LR
 Sistema che cerca informazioni su web, legge documenti, scrive un report e lo invia via email.
 
 ---
+level: 2
+
+---
 
 # Chat AI vs AI Agent: differenze
 
@@ -417,6 +478,7 @@ Sistema che cerca informazioni su web, legge documenti, scrive un report e lo in
 layout: figure-side
 figureUrl: /lmstudio1.png
 figureCaption: "LM Studio: eseguire LLM in locale"
+level: 2
 
 ---
 
@@ -431,6 +493,9 @@ LM Studio permette di scaricare ed eseguire modelli LLM sul proprio computer.
 1. Scarica da lmstudio.ai
 2. Cerca un modello (es. Llama, Mistral)
 3. Scarica e avvia una chat locale
+
+---
+level: 2
 
 ---
 
@@ -449,6 +514,9 @@ LM Studio permette di scaricare ed eseguire modelli LLM sul proprio computer.
 3. Al primo avvio LM Studio mostra la schermata **Home**
 
 ---
+level: 2
+
+---
 
 # Scaricare il modello Llama 3.1 8B
 
@@ -465,6 +533,9 @@ LM Studio permette di scaricare ed eseguire modelli LLM sul proprio computer.
 6. A download finito il modello appare nella sezione **My Models**
 
 > **Q4** indica una quantizzazione a 4 bit: riduce la dimensione del modello mantenendo buona qualità nelle risposte.
+
+---
+level: 2
 
 ---
 
@@ -487,6 +558,9 @@ LM Studio permette di scaricare ed eseguire modelli LLM sul proprio computer.
 - Se il modello è troppo lento, prova a chiudere altre applicazioni pesanti
 
 ---
+level: 2
+
+---
 
 # Cos'è un Prompt?
 
@@ -501,6 +575,9 @@ Un **prompt** è l'istruzione testuale che dai a un LLM per ottenere una rispost
 > "Elenca 3 vantaggi del linguaggio C"
 
 Provalo su qualsiasi chatbot: la risposta sarà immediata e coerente.
+
+---
+level: 2
 
 ---
 
@@ -522,6 +599,9 @@ Lo stesso obiettivo con prompt diversi produce risultati molto diversi.
 **Regola pratica**: più sei preciso nella domanda, più utile sarà la risposta.
 
 ---
+level: 2
+
+---
 
 # Anatomia di un Prompt Efficace
 
@@ -533,6 +613,9 @@ Un buon prompt contiene quattro elementi:
 - Formato: struttura dell'output
 
 Non tutti servono sempre, ma più ne includi più la risposta sarà precisa.
+
+---
+level: 2
 
 ---
 
@@ -554,6 +637,9 @@ Usa linguaggio preciso e senza ambiguità.
 Testa questo prompt su un chatbot locale: la risposta deve essere semplice e comprensibile.
 
 ---
+level: 2
+
+---
 
 # Principio 2: Specificità
 
@@ -572,6 +658,9 @@ Fornisci dettagli concreti su cosa vuoi.
 - Tipo di dato? (interi, stringhe, ...)
 - Cosa deve restituire?
 - Come gestire errori o casi particolari?
+
+---
+level: 2
 
 ---
 
@@ -595,6 +684,7 @@ Il contesto guida il modello verso la soluzione più adatta alla tua situazione 
 
 ---
 layout: two-cols
+level: 2
 
 ---
 
@@ -627,6 +717,9 @@ Il modello commette meno errori quando "ragiona ad alta voce".
 Confronta la risposta con e senza "passo dopo passo".
 
 ---
+level: 2
+
+---
 
 # Tecnica: Fornire Esempi (Few-Shot)
 
@@ -649,6 +742,9 @@ Il modello capisce lo stile e il formato desiderato dall'esempio fornito.
 > "Traduci in inglese le seguenti frasi.
 > Esempio: 'Il gatto dorme' → 'The cat sleeps'.
 > Traduci: 'La macchina è rossa', 'Il libro è sul tavolo'"
+
+---
+level: 2
 
 ---
 

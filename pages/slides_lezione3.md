@@ -1,3 +1,14 @@
+---
+layout: cover
+
+---
+
+# Lezione 3 - Ripasso e verifica (2 ore)
+
+---
+level: 2
+
+---
 
 # Riepilogo del corso
 
@@ -17,6 +28,9 @@
 - Skills per agenti AI: definizione e configurazione nel repo
 - Setup: LM Studio + GitHub Copilot + continue.dev in CLion
 - Generazione codice C con AI, debug assistito
+
+---
+level: 2
 
 ---
 
@@ -49,6 +63,9 @@ mindmap
 ```
 
 ---
+level: 2
+
+---
 
 # Concetti chiave da ricordare
 
@@ -60,6 +77,9 @@ mindmap
 - Il system prompt guida l'AI nella sessione corrente
 
 ---
+level: 2
+
+---
 
 # Risorse consigliate
 
@@ -67,6 +87,9 @@ mindmap
 - GitHub Copilot Docs: [docs.github.com/copilot](https://docs.github.com/en/copilot)
 - LM Studio: [lmstudio.ai](https://lmstudio.ai/)
 - Anthropic Documentation: [docs.anthropic.com](https://docs.anthropic.com/)
+
+---
+level: 2
 
 ---
 
@@ -87,6 +110,9 @@ Rifare con l'aiuto di Copilot l'esercizio visto nel corso di C:
 >    number = rand() % (max_number + 1); // Generate a random number between 0 and max_number
 >
 >```
+
+---
+level: 2
 
 ---
 

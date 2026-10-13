@@ -1,3 +1,15 @@
+---
+layout: cover
+
+---
+
+# Lezione 2 parte b
+
+---
+level: 2
+
+---
+
 # Lezione 2B
 
 ## Laboratorio guidato con AI su C
@@ -5,6 +17,9 @@
 - Dal prompt al codice verificato
 - Focus su debug, refactoring e test
 - Tutto eseguibile in CLion
+
+---
+level: 2
 
 ---
 
@@ -19,6 +34,9 @@ Nella lezione precedente avete visto:
 Oggi applichiamo tutto in pratica, su problemi C piccoli ma realistici.
 
 ---
+level: 2
+
+---
 
 # Metodo di lavoro in 5 passi
 
@@ -31,6 +49,9 @@ flowchart LR
 ```
 
 Regola d'oro: un problema alla volta, una funzione alla volta.
+
+---
+level: 2
 
 ---
 
@@ -51,6 +72,9 @@ Domanda guida:
 - Quali bug vedi prima di chiedere aiuto all'AI?
 
 ---
+level: 2
+
+---
 
 # Prompt efficace per debug
 
@@ -67,6 +91,9 @@ Checklist risposta utile:
 - Limiti array
 - Gestione input non validi
 - Nessuna modifica non necessaria
+
+---
+level: 2
 
 ---
 
@@ -92,6 +119,9 @@ Consegna:
 - Chiedi all'AI una patch piccola, non una riscrittura completa
 
 ---
+level: 2
+
+---
 
 # Prompt per refactoring
 
@@ -109,6 +139,9 @@ Criteri di accettazione:
 - Diff piccolo
 
 ---
+level: 2
+
+---
 
 # Esercizio: separare .h e .c
 
@@ -121,6 +154,9 @@ Partendo da una funzione in `main.c`:
 3. Aggiorna include in `main.c`
 
 Obiettivo: organizzazione modulare senza cambiare logica.
+
+---
+level: 2
 
 ---
 
@@ -149,6 +185,9 @@ int clamp_int(int value, int min, int max) {
 ```
 
 ---
+level: 2
+
+---
 
 # Prompt per generare test utili
 
@@ -164,6 +203,7 @@ Errore da evitare:
 
 ---
 layout: section
+level: 2
 
 ---
 
@@ -181,6 +221,9 @@ Leggere N interi, calcolare min, max, media intera.
 - Almeno 2 funzioni separate
 
 Tempo: 20 minuti
+
+---
+level: 2
 
 ---
 
