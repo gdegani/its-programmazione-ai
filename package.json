@@ -4,17 +4,19 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "dev": "slidev",
+    "run": "slidev --open",
+    "remote": "slidev --remote",
+    "export": "slidev export",
+    "release": "bash scripts/release.sh"
   },
   "dependencies": {
     "@fontsource-variable/noto-sans": "^5.2.10",
-    "@slidev/cli": "^52.14.1",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "@slidev/types": "^52.14.1",
+    "@slidev/cli": "53.0.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
     "beautiful-mermaid": "^1.1.3",
-    "slidev-theme-academic": "^2.1.0",
+    "slidev-theme-academic": "^3.0.1",
     "vue": "^3.5.31"
   },
   "version": "1.0.0",
@@ -32,6 +34,7 @@
   },
   "homepage": "https://github.com/gdegani/its-programmazione-ai#readme",
   "devDependencies": {
+    "@slidev/types": "^52.12.0",
     "playwright-chromium": "^1.58.2"
   },
   "allowScripts": {

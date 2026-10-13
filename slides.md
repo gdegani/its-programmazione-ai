@@ -8,13 +8,13 @@ download: false
 drawings:
   persist: false
   enabled: dev
-  syncAll: true
-transition: slide-left
+  syncAll: false
+transition: slide-up
 mdc: true
 themeConfig:
   paginationX: r
   paginationY: b
-  paginatrionPagesDisabled: "1"
+  paginationPagesDisabled: "1"
 lineNumbers: true
 fonts:
   sans: 'Noto Sans Variable'
