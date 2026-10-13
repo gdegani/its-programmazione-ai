@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/gdegani/its-programmazione-ai#readme",
   "devDependencies": {
-    "@slidev/types": "^52.12.0",
+    "@slidev/types": "^53.0.0",
     "playwright-chromium": "^1.58.2"
   },
   "allowScripts": {
