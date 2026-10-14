@@ -63,3 +63,6 @@ cmake-build-*/
 
 ## Release artifacts (scripts/release.sh)
 /release/
+
+## AI assistants (local settings)
+.claude/settings.local.json
