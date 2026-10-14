@@ -3,7 +3,7 @@ layout: cover
 
 ---
 
-# Lezione 2 parte a - Pratica con Copilot e Laboratorio (4 ore)
+# 2 - Prompt avanzati e AI in CLion
 
 ---
 level: 2

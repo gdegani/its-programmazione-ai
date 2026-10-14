@@ -3,7 +3,7 @@ layout: cover
 
 ---
 
-# Lezione 3 - Ripasso e verifica (2 ore)
+# 4 - Progetto, ripasso e verifica
 
 ---
 level: 2
