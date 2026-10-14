@@ -29,8 +29,8 @@ This section is identical in `its-programmazione` and `its-programmazione-ai`: k
 
 ## Language
 
-* Slide text is in Italian.
-* Code is C. Identifiers, comments and output strings in the examples are in English, with no Italian words in the code.
+* Slide text and diagrams (Mermaid and similar) are in Italian.
+* All code is in English, wherever it appears: inline in slides and in `snippets/`. Code is C. Identifiers, comments and output strings are in English, with no Italian words in the code.
 
 ## Slides
 
