@@ -37,24 +37,24 @@ hideInToc: true
 
 ---
 src: ./pages/slides_lezione1.md
-title: Lezione 1 - Fondamenti di AI e LLM (4 ore)
+title: Fondamenti di AI e LLM
 
 ---
 
 ---
 src: ./pages/slides_lezione2a.md
-title: Lezione 2 parte a - Pratica con Copilot e Laboratorio (4 ore)
+title: Prompt avanzati e AI in CLion
 
 ---
 
 ---
 src: ./pages/slides_lezione2b.md
-title: Lezione 2 parte b
+title: Debug, refactoring e test con l'AI
 
 ---
 
 ---
 src: ./pages/slides_lezione3.md
-title: Lezione 3 - Ripasso e verifica (2 ore)
+title: Progetto, ripasso e verifica
 
 ---

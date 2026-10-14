@@ -3,7 +3,7 @@ layout: cover
 
 ---
 
-# Lezione 1 - Fondamenti di AI e LLM (4 ore)
+# 1 - Fondamenti di AI e LLM
 
 ---
 layout: two-cols

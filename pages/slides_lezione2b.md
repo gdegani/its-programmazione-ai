@@ -3,16 +3,14 @@ layout: cover
 
 ---
 
-# Lezione 2 parte b
+# 3 - Debug, refactoring e test con l'AI
 
 ---
 level: 2
 
 ---
 
-# Lezione 2B
-
-## Laboratorio guidato con AI su C
+# Laboratorio guidato con AI su C
 
 - Dal prompt al codice verificato
 - Focus su debug, refactoring e test
