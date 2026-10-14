@@ -33,7 +33,7 @@ hideInToc: true
 
 # Indice
 
-<Toc maxDepth="1" />
+<Toc maxDepth="1" listStyle="none" />
 
 ---
 src: ./pages/slides_lezione1.md
