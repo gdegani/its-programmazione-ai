@@ -8,7 +8,9 @@
     "run": "slidev --open",
     "remote": "slidev --remote",
     "export": "slidev export",
-    "release": "bash scripts/release.sh"
+    "release": "bash scripts/release.sh",
+    "sync:agents": "node scripts/sync-agents.mjs",
+    "check:agents": "node scripts/sync-agents.mjs --check"
   },
   "dependencies": {
     "@fontsource-variable/noto-sans": "^5.2.10",
