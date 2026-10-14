@@ -78,6 +78,7 @@ there, then run `npm run sync:agents` in both repositories.
 ## Workflow
 
 * `master` is protected and publishes the slides on GitHub Pages: work on a branch and open a pull request.
+* When the user says "deploy", push the branch, open a pull request and merge it into `master`. Never push or merge otherwise.
 * The revision plan for both courses is `../PIANO_REVISIONE.md`, in the workspace folder that contains the two repositories.
 * AI assistant configuration: `AGENTS.md` is the only source of instructions; `CLAUDE.md` and `.github/copilot-instructions.md` only
   point to it. Project skills live in `.agents/skills/` (`.claude/skills` links there).
