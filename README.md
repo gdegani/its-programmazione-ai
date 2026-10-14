@@ -24,7 +24,6 @@ Le slide sono organizzate per lezioni e costruite con [Slidev](https://sli.dev/)
 
 - **slides.md** - Indice principale delle lezioni
 - **pages/** - Slide divise per lezione
-- **components/** - Componenti Vue personalizzati
 - **reference/** - Materiale di riferimento
 
 ## Modifiche alle slide

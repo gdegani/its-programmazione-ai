@@ -12,9 +12,8 @@ replacing understanding.
 
 * `slides.md`: entry point (configuration, table of contents and lesson list)
 * `pages/`: one file per lesson
-* `snippets/`: examples
+* `snippets/`: examples (C projects, as in `its-programmazione`; added with the integration of the AI material)
 * `reference/`: reference material (not versioned): use it as inspiration, never copy it verbatim; adapt and simplify it
-* `components/`: Vue components
 * `scripts/`: `release.sh` (archive an edition), `set-slide-level.mjs` (table of contents levels), `sync-agents.mjs` (shared AI
   assistant configuration)
 * `AGENTS.md`: instructions for AI assistants (this file); `.agents/skills/`: project skills. The common section below and the
