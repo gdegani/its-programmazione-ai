@@ -35,3 +35,11 @@
   /*Aggiungi spaziatura tra le righe */
 }
 
+.col-left .mermaid,
+.col-right .mermaid {
+  display: flex;
+  justify-content: center;
+  /* Centra i diagrammi mermaid nella colonna di un layout two-cols,
+     invece di lasciarli allineati a sinistra */
+}
+
