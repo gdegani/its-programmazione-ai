@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@fontsource-variable/noto-sans": "^5.3.0",
-    "@slidev/cli": "53.0.0",
+    "@slidev/cli": "53.1.0",
     "@slidev/theme-default": "^0.25.0",
     "@slidev/theme-seriph": "^0.25.0",
     "beautiful-mermaid": "^1.1.3",
